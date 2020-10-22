@@ -24,6 +24,7 @@ trait Counter {
  */
 @Singleton
 class AtomicCounter extends Counter {  
+  private val initial = 1
   private val atomicCounter = new AtomicInteger()
   override def nextCount(): Int = atomicCounter.getAndIncrement()
 }
