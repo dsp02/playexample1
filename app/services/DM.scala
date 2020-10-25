@@ -2,5 +2,5 @@ package services
 
 class DM {
 
-  val msg: String = "... replace with response 7"
+  val msg: String = "... replace with response 8"
 }
